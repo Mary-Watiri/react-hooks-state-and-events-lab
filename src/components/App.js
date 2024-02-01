@@ -10,10 +10,10 @@ function App() {
   const [isDark, setMode] = useState(false)
  
    const appClass = isDark ? "App dark" : "App light"
-   
+
    const colourChange = (e) => {
     e.preventDefault();
-    setMode(appMode => !appMode)
+    setMode(darkMode => !darkMode)
    }
 
   return (
